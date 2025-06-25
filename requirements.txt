@@ -1,0 +1,7 @@
+streamlit
+google-cloud-vision
+openai
+pandas
+firebase-admin
+python-dotenv
+requests

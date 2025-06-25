@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from image_extraction import extract_text
+from image_extractor import extract_text
 
 # Page title
 st.title("AI Invoice & Receipt Extractor")
@@ -23,22 +23,3 @@ if uploaded_file is not None:
 
     st.subheader("Extracted Text:")
     st.text_area("OCR Output:", ocr_text, height=400)
-
-
-
-
-
-
-
-    # # Show extracted data
-    # st.subheader("Extracted Invoice Data")
-    # st.table(extracted_df)
-    #
-    # # Download extracted data
-    # csv = extracted_df.to_csv(index=False).encode('utf-8')
-    # st.download_button(
-    #     label="Download Extracted Data as CSV",
-    #     data=csv,
-    #     file_name='extracted_invoice_data.csv',
-    #     mime='text/csv',
-    # )
