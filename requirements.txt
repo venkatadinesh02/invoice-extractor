@@ -1,7 +1,6 @@
 streamlit
 google-cloud-vision
 openai
+fpdf
+Pillow
 pandas
-firebase-admin
-python-dotenv
-requests
